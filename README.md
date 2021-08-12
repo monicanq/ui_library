@@ -11,6 +11,26 @@ Simple Responsive Navbar to use in projects that require a mobile menu.
 Hooks Required:
 * useIsMobile.js
 
+### 2. Dropdown items
+
+Given an object with the dropdown data this component will create a series of dropdown items. The object provided to the component should have the following format:
+
+    ```
+    [
+            {'id': 1,
+            'title': 'Dropdown 1 title',
+            'content': 'Dropdown 1 content'},
+            {'id': 2,
+            'title': 'Dropdown 2 title',
+            'content': 'Dropdown 2 content'},
+            {'id': 3,
+            'title': 'Dropdown 3 title',
+            'content': 'Dropdown 3 content'},
+            {'id': 4,
+            'title': 'Dropdown 4 title',
+            'content': 'Dropdown 24 content'}
+        ]
+    ```
 
 ## Available Hooks
 

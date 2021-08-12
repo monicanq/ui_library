@@ -16,7 +16,7 @@ const Dropdown = ({ dropdowns }) => {
     }
 
     return ( 
-        <div >
+        <div className={styles.container}>
             <h2>Dropdown</h2>
             { dropdowns.map( item =>
                     <div className={ styles.dropdown } key= {item.id} id={item.id}>
