@@ -5,21 +5,10 @@ import { BrowserRouter as Router,
         NavLink,
         Link } from 'react-router-dom'
  
-const Navbar = () => {
+const Navbar = ({ links }) => {
 
     const [open, setOpen] = useState(false);
     const isMobile = useIsMobile();
-    console.log('render')
-    const links = [
-        {'text': 'About',
-        'url': '/about'},
-        {'text': 'Services',
-        'url': '/services'},
-        {'text': 'Projects',
-        'url': '/projects'},
-        {'text': 'Contact',
-        'url': '/contact'}
-    ]
 
     return ( 
         <Router>

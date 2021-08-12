@@ -12,7 +12,7 @@ code {
     monospace;
 }
 :root{
-    --primary: aqua;
+    --primary: rgb(0, 0, 82);
     --secondary: coral;
     --background: #333;
 }
